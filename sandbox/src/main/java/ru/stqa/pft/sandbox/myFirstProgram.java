@@ -1,7 +1,5 @@
 package ru.stqa.pft.sandbox;
 
-import javax.sql.XAConnection;
-
 public class myFirstProgram {
 
   public static void main(String[] args) {
