@@ -11,7 +11,7 @@ public class ApplicationManager {
   private  NavigationHelper navigationHelper;
   private GroupHelper groupHelper;
 
-  protected StringBuffer verificationErrors = new StringBuffer();
+  public StringBuffer verificationErrors = new StringBuffer();
   private boolean acceptNextAlert = true;
 
   public void init() {
