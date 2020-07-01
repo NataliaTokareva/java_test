@@ -9,7 +9,7 @@ import static org.testng.Assert.fail;
 
 public class TestBase {
 
-  protected final ApplicationManager app = new ApplicationManager(BrowserType.EDGE);
+  protected final ApplicationManager app = new ApplicationManager(BrowserType.FIREFOX);
 
   @BeforeClass(alwaysRun = true)
   public void setUp() throws Exception {

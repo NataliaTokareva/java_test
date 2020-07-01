@@ -23,11 +23,11 @@ public class ApplicationManager {
   }
 
   public void init() {
-    if (browser == BrowserType.FIREFOX) {
+    if (browser.equals(BrowserType.FIREFOX)) {
       driver = new FirefoxDriver();
-    } else if (browser == BrowserType.CHROME) {
+    } else if (browser.equals(BrowserType.CHROME)) {
       driver = new ChromeDriver();
-    } else if (browser == BrowserType.EDGE) {
+    } else if (browser.equals(BrowserType.EDGE)) {
       driver = new InternetExplorerDriver();
   }
     String baseUrl = "https://www.google.com/";
